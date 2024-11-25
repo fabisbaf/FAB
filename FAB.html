@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url(./Photo/HEADER.jpg) no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .hero p {
+            margin: 10px 0;
+        }
+
+        /* Section Styles */
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        section img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .image-grid {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .image-grid img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Hobbies Section */
+        .hobbies-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .hobbies-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">My Portfolio</div>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Hello, I'm Janna Icmat</h1>
+        <p>IT Student | University of the East</p>
+    </div>
+
+    <!-- Button -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="#" style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; display: inline-block;">
+            Bop This
+        </a>
+    </div>
+
+    <!-- About Me -->
+    <section id="about-me" style="display: flex; align-items: center; padding: 20px;">
+        <img src="./Photo/MYPHOTO.jpg" alt="About Me" style="width: 150px; height: 150px; border-radius: 50%; margin-right: 20px;">
+        <div>
+            <h2>About Me</h2>
+            <p>
+                Hi! My name is Janna E. Icmat. People often call me FAB. I'm a passionate, adventurous, and sporty individual. I have a deep love for poetry, writing, photography, and documentary. While my knowledge of technology is limited, I see it as an opportunity to grow. Driven by the desire to challenge myself and step out of my comfort zone, I chose to pursue a career in Information Technology.
+            </p>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements" style="display: flex; align-items: center; padding: 20px;">
+        <div style="flex: 1; padding-right: 20px; text-align: justify; text-indent: 30px;">
+            <h2>Achievements</h2>
+            <p>
+                Among my achievements in academics, debate team, and marathons, earning a place on my former school's volleyball team stands out for the dedication and teamwork it taught me.
+            </p>
+        </div>
+        <div style="flex: 1; text-align: right;">
+            <img src="./Photo/ACHIEVEMENT2.jpg" alt="Achievement 2" style="width: 300px; height: auto; border-radius: 10px;">
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="image-grid">
+            <img src="./Photo/SKILLS1.jpg" alt="Skill 1">
+            <img src="./Photo/SKILLS2.jpg" alt="Skill 2">
+            <img src="./Photo/SKILLS3.jpg" alt="Skill 3">
+        </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <div class="hobbies-list">
+            <div class="hobbies-item">Poetry Writing</div>
+            <div class="hobbies-item">Photography</div>
+            <div class="hobbies-item">Documentary Making</div>
+            <div class="hobbies-item">Playing Volleyball</div>
+            <div class="hobbies-item">Reading Books</div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:icmatjanna19@gmail.com">icmatjanna19@gmail.com</a></p>
+        <p>Phone: 09688543066</p>
+        <p>Follow me on:</p>
+        <ul>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Janna. All rights reserved.</p>
+    </footer>
+</body>
+</html>
